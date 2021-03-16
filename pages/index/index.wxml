@@ -1,0 +1,14 @@
+<view class="content">
+  <image class='background' src="beijing.jpg" mode="aspectFill"></image>
+  <view class="anniu">
+      <!-- 骰子图片 -->
+      <image class="shang" bindlongpress="click" bindtouchend="click1" src="1.png"></image> 
+      <!-- 数字图片 -->
+      <image wx:if="{{isshow}}" class="xia" src="2.1.png"></image>
+      <image wx:if="{{isshow1}}" class="xia3" src="5.1.png"></image>
+      <image wx:if="{{isshow2}}"class="xia4" src="6.1.png"></image>
+      <image wx:if="{{isshow3}}"class="xia1" src="3.1.png"></image>
+      <image wx:if="{{isshow4}}"class="xia2" src="4.1.png"></image>
+  </view>
+</view>
+
